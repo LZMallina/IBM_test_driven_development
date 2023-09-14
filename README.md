@@ -102,3 +102,31 @@ $ nosetests --stop
 2. Testing the peek() method
 3. Testing the pop() method
 4. Testing the push() method
+
+# Hands-On Lab: Creating an Initial State Using Test Fixtures
+
+## Set up the lab Environment
+
+1. Clone the code repo
+
+$ git clone <https://github.com/ibm-developer-skills-network/duwjx-tdd_bdd_PracticeCode.git>
+
+$
+cd duwjx-tdd_bdd_PracticeCode/labs/03_test_fixtures
+
+$ pip install -r requirements.txt
+
+* optional:
+
+$ export PS1="[\[\033[01;32m\]\u\[\033[00m\]: \[\033[01;34m\]\W\[\033[00m\]]\$ "
+
+1. Initialize the database at test_account.py
+
+* run the test $ nosetests
+
+2. Load test data into a global variable called ACCOUNT_DATA in tests/fixtures/account_data.json
+
+3. Write a test case to create an account
+
+4. Write a test case to create all accounts
+5. Clear out the tables before each test
