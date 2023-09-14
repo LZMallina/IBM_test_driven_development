@@ -63,3 +63,42 @@ $ coverage report -m
 2. Run the nosetest with config
 
 $ nosetests
+
+# Hand-on Lab: Writing Test Assertions
+
+## Setup the Lab Environment
+
+1. Clone the code repo
+
+$ git clone <https://github.com/ibm-developer-skills-network/duwjx-tdd_bdd_PracticeCode.git>
+
+2. change into the lab folder
+
+$ cd duwjx-tdd_bdd_PracticeCode/labs/02_writing_test_assertions/
+
+$ ls -l
+
+3. Install the requirments
+
+$ pip install -r requirements.txt
+
+4. Optional: shorten the command prompt:
+
+$ export PS1="[\[\033[01;32m\]\u\[\033[00m\]: \[\033[01;34m\]\W\[\033[00m\]]\$ "
+
+## Working with the test files
+1. Review test_stack.py and stack.py
+
+## Running nosetest
+
+$ nosetests
+
+## Finding the first Error
+
+$ nosetests --stop
+
+1. Testing the is_empty() method
+
+2. Testing the peek() method
+3. Testing the pop() method
+4. Testing the push() method
